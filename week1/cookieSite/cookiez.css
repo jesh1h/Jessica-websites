@@ -1,0 +1,22 @@
+body{background-color: #FFE;
+	border-style: solid;
+	border-color: black;}
+
+h1{font-family: Verdana, "Geneva", Tahoma, sans-serif;
+	font-size: 20px;}
+
+	p{font-family: Verdana, "Geneva", Tahoma, sans-serif;
+		font-size: 14px;
+		line-height: 40%;}
+	ul{list-style-type: none;
+		font-family: Verdana, "Geneva", Tahoma, sans-serif;
+		font-size: 14px;}
+
+	a{color:#900;}
+
+	img{
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		border-style: solid;
+		border-color: black;}

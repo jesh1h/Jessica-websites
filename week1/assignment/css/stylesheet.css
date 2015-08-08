@@ -1,0 +1,30 @@
+html{background-color: #934764;
+	height: 100%;}
+	body{background-color: beige;
+		width: 75%;
+		min-height: 100%;
+		margin: 0 auto;
+		padding: 0 20px;}
+		nav{background-color: #934764;
+			padding: 20px;
+			border-radius: 10px;
+			width: 75%;
+			margin: 0 auto;
+			text-align: center;}
+
+		nav a{color: #FFF0F5;
+			text-decoration: none;
+			padding: 55px;}
+
+		nav a:hover{background-color: beige;
+			color: #000000;
+			border-radius: 5px;
+		}
+		a{}
+		h1{color:#FFFFFF;}
+
+		img{
+			display: block;
+			margin-right: auto;
+			margin-left: auto;
+		}

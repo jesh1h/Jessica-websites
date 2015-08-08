@@ -1,0 +1,17 @@
+body{background-color: #FA8072;}
+
+h1{font-family: "TimesNewRoman", "Times New Roman", Times, "Baskerville", Georgia, serif;
+	font-size: 24px;
+
+}
+
+p{padding: 20px;
+	}
+
+p:first-letter{font-size: 45px;
+}
+
+li:first-letter{color:white;}
+
+a{text-decoration: line-through;}
+a:hover{color:white;}
