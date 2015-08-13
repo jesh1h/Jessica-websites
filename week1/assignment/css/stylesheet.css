@@ -1,30 +1,85 @@
-html{background-color: #934764;
+html{background-color: #FFFAFA;
 	height: 100%;}
-	body{background-color: beige;
-		width: 75%;
+	body{background-color: #FDF5E6;
+		border-top: 3px solid #CD853F;
+		border-bottom: 3px solid #CD853F;
+		width: 85%;
 		min-height: 100%;
 		margin: 0 auto;
-		padding: 0 20px;}
-		nav{background-color: #934764;
-			padding: 20px;
-			border-radius: 10px;
-			width: 75%;
+		padding: 0px;}
+		nav{
+			padding: 25px;
+			border-bottom: solid;
+			border-bottom-color: #CD853F;
+			border-width: 5px;
 			margin: 0 auto;
 			text-align: center;}
 
-		nav a{color: #FFF0F5;
-			text-decoration: none;
-			padding: 55px;}
+			nav a{color: #000000;
+				text-decoration: none;
+				padding: 55px;}
 
-		nav a:hover{background-color: beige;
-			color: #000000;
+				nav a:hover{
+					color: #CD853F;
+					border-radius: 5px;
+				}
+				a{font-family:'Slabo 27px', serif;
+				font-size: 180%;
+				color: #000000;
+				text-decoration: none;
+			}
+			a:hover{font-family: 'Slabo 27px', serif;
+			color: #CD853F;
 			border-radius: 5px;
 		}
-		a{}
-		h1{color:#FFFFFF;}
+		h1{color:#000000;
+			font-family:"Slabo 13px", serif;
+			font-size: 280%;
+			text-align: center;
+			text-decoration: underline;
+			margin: 0 auto;
+			padding-top: 10px;
+		}	
 
-		img{
+		img.welcome{
 			display: block;
 			margin-right: auto;
 			margin-left: auto;
+			width: 100%;
+			overflow: hidden;
+			border-bottom: 5px solid #CD853F;
 		}
+
+		img.portfolio{
+			display: block;
+			margin-right: auto;
+			margin-left: auto;
+			width: 100%;
+			overflow: hidden;
+			border-bottom: 5px solid #CD853F;
+		}
+
+		a.relaxr:hover{font-family: 'Slabo 27px', serif;
+		color: #CD853F;
+		border-radius: 5px;}
+
+		p{font-family: "Slabo 13px", serif;
+		text-align: center;
+		padding-right: 20px;
+		padding-left: 20px;
+	}
+
+	p.small{
+		font-family: "Slabo 13px", serif;
+		font-size: smaller;
+	}
+
+	footer{
+		font-family: "Slabo 13px", serif;
+		font-size: small;
+		text-align: center;
+	}
+
+
+	li{list-style-type: none;
+		font-family: "Slabo 13px", serif}
