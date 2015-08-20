@@ -1,2 +1,202 @@
-nav {text-decoration: bold;
-	font-size: 24px;}
+body{
+	line-height: 1;
+	font-family: 'Open Sans', sans-serif;
+	background-size: 80%;
+	box-sizing: border-box;
+	margin: 0 auto;
+}
+
+header{
+	background-image: url("../images/header_bg.jpg");
+	height: 400px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: black;
+	font-weight: 800;
+	font-size: 24px;
+	color:white;
+	text-indent: 5%;
+	padding: 30px 10px 40px 10px;
+	box-sizing: border-box;
+	height: 350px;
+}
+
+p.mind{
+	color:white;
+	font-weight: 600;
+	font-size: 24px;
+	padding: 60px;
+	text-indent: 0%;
+	clear: both;
+	text-align: center;
+	box-sizing: border-box;
+}
+
+p.get{
+	font-weight: 800;
+	font-size: 14px;
+	color: black;
+	width: 15%;
+	text-indent: 3%;
+	border: 5px solid black;
+	background-color: #f9e42e;
+	padding: 10px;
+	margin: auto;
+	box-sizing: border-box;
+}
+
+p a{
+	font-weight: 800;
+	font-size: 14px;
+	color: black;
+	text-decoration: none;
+}
+
+div.benefits{
+	background-color: #f0efef;
+	background-size: 100%;
+	font-weight: 800;
+	font-size: 20px;
+	color: #033048;
+	text-indent: 5%;
+	clear: both;
+	padding: 50px 30px 30px 30px;
+	width: 60%;
+	float: left;
+	box-sizing: border-box;
+}
+
+p.personal{
+	background-color: #f0efef;
+	background-size: 100%;
+	font-weight: 300;	
+	font-size: 13px;
+	color: #606161;
+	padding: 20px 20px 20px 0px;
+	height: 50px;
+	box-sizing: border-box;
+	float: left;
+}
+
+ol{
+	background-color: #f0efef;
+	font-weight: 300;	
+	font-size: 13px;
+	color: #606161;
+	text-indent: 10%;
+	list-style-type: square;
+	list-style-position: inside;
+	height: 180px;
+	line-height: 30px;
+	box-sizing: border-box;
+}
+
+div.blank{
+	background-color: #f0efef;
+	float: right;
+	width: 40%;
+	box-sizing: border-box;
+	height: 280px;
+}
+
+section{
+	background-image: url("../images/testimonial_bg.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	font-weight: 300;
+	font-style: italic;
+	font-size: 18px;
+	color: #606161;
+	padding: 50px 300px 50px 300px;
+	text-align: center;
+	clear: both;
+}
+
+section#amanda{
+	font-weight: 600;
+	font-style: normal;
+	color: white;
+	text-align: center;
+	padding: 20px 250px 10px 250px;
+	box-sizing: border-box;
+}
+
+div.sign1{
+	clear: both;
+	background-color: #f9e42e;
+	float: left;
+	width: 40%;
+	box-sizing: border-box;
+	padding-bottom: 90px;
+}
+
+div.sign{
+	font-weight: 800;
+	font-size: 12px;
+	color: white;
+	text-align: center;
+	line-height: 20px;
+	border: 25px solid #f9e42e;
+	background-color: #033048;
+	padding: 9.5px 2px;
+	box-sizing: border-box;
+	width: 20%;
+	margin: 0%;
+	float: left;
+}
+
+div.sign2{
+	background-color: #f9e42e;
+	float: right;
+	width: 40%;
+	box-sizing: border-box;
+	padding-bottom: 90px;
+}
+
+div.sign a{
+	font-weight: 800;
+	font-size: 14px;
+	color: white;
+	text-decoration: none;
+}
+
+div.relaxr{
+	background-color: black;
+	color: #f9e42e;
+	clear: both;
+	font-weight: 800;
+	font-size: 24px;
+	text-align: center;
+	padding: 30px;
+}
+
+div.twitter{
+	background-color: black;
+	background-repeat: no-repeat;
+	background-position: 97% 50%;
+	float: left;
+	width: 50%;
+	padding: 60px;
+	background-image: url("../images/twitter.jpg");
+	opacity: 1.0;
+	display: block;
+	box-sizing: border-box;
+}
+
+div.facebook{
+	background-color: black;
+	float: right;
+	padding: 60px;
+	background-image: url("../images/facebook.png");
+	background-repeat: no-repeat;
+	background-position: 5% 50%;
+	width: 50%;
+	box-sizing: border-box;
+}
+
+footer{
+	clear: both;
+	background-color: black;
+	color: white;
+	text-align: center;
+}
